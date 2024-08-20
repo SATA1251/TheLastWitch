@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FbxLoader">
+      <UniqueIdentifier>{01d2a925-e89d-49f4-b981-62ab68239abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{7c5a5249-e8f7-4130-9ab2-60d855b294bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Mesh">
+      <UniqueIdentifier>{5500efc5-4b94-4849-9326-f2c8d6d71402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Mesh\Vertex">
+      <UniqueIdentifier>{3a73ff08-0286-4488-98a1-6017a0adf3b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{1756d7d4-874c-4bd6-a96c-8941b9dbc3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{c7415d13-cd01-46d4-8c3f-1854491a1024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructs">
+      <UniqueIdentifier>{757465a1-c8f8-4a05-a45d-32756bf03df2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXConverter.h">
+      <Filter>FbxLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Model\Mesh\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXData.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AssimpTool.h">
+      <Filter>FbxLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="AsTypes.h">
+      <Filter>FbxLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMeshDemo.h">
+      <Filter>FbxLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>DataStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexDatas.h">
+      <Filter>DataStructs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXConverter.cpp">
+      <Filter>FbxLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Model\Mesh\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Model\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXData.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="AssimpTool.cpp">
+      <Filter>FbxLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="AsTypes.cpp">
+      <Filter>FbxLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMeshDemo.cpp">
+      <Filter>FbxLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Types.cpp">
+      <Filter>DataStructs</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexDatas.cpp">
+      <Filter>DataStructs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Materials>
+    <Material>
+        <Name>Material.043</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>StoneFloor_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Ktulhu.001</Name>
+        <DiffuseFile>1_1_Statue1_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>1_1_Statue1_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="1" G="1" B="1" A="1"/>
+        <Specular R="1" G="1" B="1" A="10.000002"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>kolon1.001</Name>
+        <DiffuseFile>2_2_kolon_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>2_2_kolon_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="1" G="1" B="1" A="1"/>
+        <Specular R="1" G="1" B="1" A="10.000002"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.027</Name>
+        <DiffuseFile>3_3_Statue2_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>3_3_Statue2_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.028</Name>
+        <DiffuseFile>5_5_Statue4_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>5_5_Statue4_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.029</Name>
+        <DiffuseFile>7_7_Statue6_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>7_7_Statue6_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.031</Name>
+        <DiffuseFile>9_9_Bloks_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>9_9_Bloks_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.032</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>StoneFloor_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.033</Name>
+        <DiffuseFile>11_11_plain2_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>11_11_plain2_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.034</Name>
+        <DiffuseFile>15_15_Light_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>15_15_Light_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.035</Name>
+        <DiffuseFile>16_16_bio_rock_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>16_16_bio_rock_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.013</Name>
+        <DiffuseFile>rocks_gray_big_Albedo.tga</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>rocks_big_Normal.tga</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.018</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>StoneFloor_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.036</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>StoneFloor_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.037</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>StoneFloor_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.038</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>StoneFloor_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.039</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>StoneFloor_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.040</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>StoneFloor_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.041</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>StoneFloor_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.044</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>StoneFloor_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.047</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>StoneFloor_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.048</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>StoneFloor_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.056</Name>
+        <DiffuseFile>11_11_plain2_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>11_11_plain2_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.057</Name>
+        <DiffuseFile>11_11_plain2_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>11_11_plain2_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.058</Name>
+        <DiffuseFile>11_11_plain2_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>11_11_plain2_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.059</Name>
+        <DiffuseFile>8_8_medal_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>8_8_medal_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.060</Name>
+        <DiffuseFile>M_stone_wall_old_diff.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>TexturesCom_Rock_SandySoil2_1K_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>kolon1.002</Name>
+        <DiffuseFile>2_2_kolon_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>2_2_kolon_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="1" G="1" B="1" A="1"/>
+        <Specular R="1" G="1" B="1" A="10.000002"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.062</Name>
+        <DiffuseFile>3_3_Statue2_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>3_3_Statue2_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.063</Name>
+        <DiffuseFile>5_5_Statue4_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>5_5_Statue4_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.064</Name>
+        <DiffuseFile>7_7_Statue6_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>7_7_Statue6_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.065</Name>
+        <DiffuseFile>8_8_medal_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>8_8_medal_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.066</Name>
+        <DiffuseFile>9_9_Bloks_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>9_9_Bloks_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.067</Name>
+        <DiffuseFile>M_stone_wall_old_diff.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>TexturesCom_Rock_SandySoil2_1K_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.068</Name>
+        <DiffuseFile>M_stone_wall_old_diff.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>TexturesCom_Rock_SandySoil2_1K_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.069</Name>
+        <DiffuseFile>M_stone_wall_old_diff.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>TexturesCom_Rock_SandySoil2_1K_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.070</Name>
+        <DiffuseFile>M_stone_wall_old_diff.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>TexturesCom_Rock_SandySoil2_1K_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.071</Name>
+        <DiffuseFile>Wall1.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>Wall1_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.072</Name>
+        <DiffuseFile>M_stone_wall_old_diff.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>TexturesCom_Rock_SandySoil2_1K_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.073</Name>
+        <DiffuseFile>M_stone_wall_old_diff.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>TexturesCom_Rock_SandySoil2_1K_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.074</Name>
+        <DiffuseFile>M_stone_wall_old_diff.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>TexturesCom_Rock_SandySoil2_1K_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.075</Name>
+        <DiffuseFile>M_stone_wall_old_diff.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>TexturesCom_Rock_SandySoil2_1K_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.076</Name>
+        <DiffuseFile>11_11_plain2_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>11_11_plain2_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.077</Name>
+        <DiffuseFile>10_10_plain_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>10_10_plain_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.078</Name>
+        <DiffuseFile>16_16_bio_rock_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>16_16_bio_rock_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Ktulhu.002</Name>
+        <DiffuseFile>1_1_Statue1_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>1_1_Statue1_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="1" G="1" B="1" A="1"/>
+        <Specular R="1" G="1" B="1" A="10.000002"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.079</Name>
+        <DiffuseFile>6_6_Statue5_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>6_6_Statue5_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.080</Name>
+        <DiffuseFile>15_15_Light_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>15_15_Light_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.081</Name>
+        <DiffuseFile>4_4_Statue3obj_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>4_4_Statue3obj_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+</Materials>

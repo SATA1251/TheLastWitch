@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{35660a17-8688-4c1a-818c-9de1d7b59673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default\dllmain">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ArkEngine">
+      <UniqueIdentifier>{f4f03702-7adc-486f-bf6d-7e29a5d695a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\Interface">
+      <UniqueIdentifier>{484c2966-dccd-4f46-a309-c7002f8c57c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\Interface\IRenderer">
+      <UniqueIdentifier>{b6a966c0-0f0c-43a9-bee6-c6b6af14129c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\Interface\IResource">
+      <UniqueIdentifier>{9cc0fde5-87cd-4fb0-8941-7faf0be0917e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ResourceManager">
+      <UniqueIdentifier>{138f4e72-1623-45ef-af9e-5ed7ec95f947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11">
+      <UniqueIdentifier>{12d00a60-3a20-483d-a181-8a77911ca638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\Camera">
+      <UniqueIdentifier>{86afaf4a-658f-4ca9-9665-f377f8a46cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\Interface\ICamera">
+      <UniqueIdentifier>{7634b09d-b902-44f2-bdf3-08e2dad991e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{4d6380a6-7c28-4c22-87fe-69fde9c1d1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DX11effect">
+      <UniqueIdentifier>{8c5bdf61-aec0-43c1-a090-2d3078acb556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonStruct">
+      <UniqueIdentifier>{6012bcf6-2bce-4249-bf7a-e9491af1100a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DDSTextureLoader">
+      <UniqueIdentifier>{2da27887-0037-4030-bb70-cd704f8808a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{740dfda7-8606-4b1a-b466-c2fc62552842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\Interface\IRenderable">
+      <UniqueIdentifier>{9d07f22e-05a8-4ab5-9e30-e8082be4c05c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\Renderer">
+      <UniqueIdentifier>{3b483d09-93c6-4694-a5f7-cad2b29d7afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\Resources">
+      <UniqueIdentifier>{3438d6d2-5ecb-4ea1-8a11-df6e72defac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\Resources\Texture">
+      <UniqueIdentifier>{bfa99b77-ac94-4242-94bc-cf3b29501381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\Resources\Effect">
+      <UniqueIdentifier>{bf443e53-8073-464c-a8f2-fa74ebd2aaf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\Resources\DXTKFont">
+      <UniqueIdentifier>{eea35ee5-bb64-40c6-99b1-47c2f1ac7abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\Resources\Device">
+      <UniqueIdentifier>{eb5d4d53-f2a8-43e3-9651-d3085d168c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\Resources\Buffer">
+      <UniqueIdentifier>{44737aba-b547-45b9-8679-720f024037c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\Transform">
+      <UniqueIdentifier>{793d1d07-3819-4b08-a9b4-23ea23f05719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeometryGenerator">
+      <UniqueIdentifier>{85695450-d276-460f-a23e-a0697f429334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CubeMap">
+      <UniqueIdentifier>{bf6d37ad-ff07-43bc-8285-d595ac04d389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\Interface\ICubeMap">
+      <UniqueIdentifier>{1cbe6882-0e3d-4234-8019-bb703fec6af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animator">
+      <UniqueIdentifier>{f634833e-0fae-4a6b-9078-f719cdabb70b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MathConverter">
+      <UniqueIdentifier>{3426ef5a-72d2-4b62-b20e-bd9b9d1f4f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{7f1eaba8-877f-44b0-bc58-665f4676077d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LightManager">
+      <UniqueIdentifier>{1c5b5a6d-c4c2-44e4-801f-9d6f6fafbf7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Directional">
+      <UniqueIdentifier>{36675825-d32c-4e3c-bfa6-795b73839cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Point">
+      <UniqueIdentifier>{c1b30812-da55-40a6-8782-e9897a8d440e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Basic">
+      <UniqueIdentifier>{3c892901-01eb-440a-a18a-720844a2fad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AddingKIM">
+      <UniqueIdentifier>{e3c85b21-c35d-4480-ae9e-1fac11c43e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default\header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\DeferredRendering">
+      <UniqueIdentifier>{95902274-f772-4f6a-8fd5-70ff7757a4ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light\Spot">
+      <UniqueIdentifier>{07b63e90-37ea-4f60-bf9f-e877272aace3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\DebugObject">
+      <UniqueIdentifier>{b3c36873-9054-4e2c-b3e4-78c7a36c5210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\Resources\Font">
+      <UniqueIdentifier>{eb92cbc8-58cf-4525-9e2d-28f3a824f84c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{b62d0a71-b7a6-46eb-b557-8bb6888a9b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shadow">
+      <UniqueIdentifier>{06261cdf-bb5a-4005-b38b-ef61a8df4f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\Shaodw">
+      <UniqueIdentifier>{7c4f92b0-35cb-456d-b560-430fc8342c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\ArkDX11\Line">
+      <UniqueIdentifier>{d92bc4ee-b167-4ce1-88da-43f9f2c9a683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{2c5c796f-2afd-4021-9791-6cb842336ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArkEngine\Interface\IDebug">
+      <UniqueIdentifier>{eda9442d-133f-4f10-aa21-a13a7c40aa76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshRenderer">
+      <UniqueIdentifier>{97ac8e3f-167e-4a73-a179-eee14b47036e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TransparentMesh">
+      <UniqueIdentifier>{243187fe-17f4-4abb-a8be-7e52f636c7e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default\header</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.h">
+      <Filter>ArkEngine\Interface\IRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Renderer.h">
+      <Filter>ArkEngine\ArkDX11\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTKFont.h">
+      <Filter>ArkEngine\ArkDX11\Resources\DXTKFont</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ArkEngine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IResource.h">
+      <Filter>ArkEngine\Interface\IResource</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkSpriteFont.h">
+      <Filter>ArkEngine\ArkDX11\Resources\DXTKFont</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ArkEngine\ArkDX11\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>ArkEngine\Interface\ICamera</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderable.h">
+      <Filter>ArkEngine\Interface\IRenderable</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx11effect.h">
+      <Filter>D3DX11effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkEffect.h">
+      <Filter>ArkEngine\ArkDX11\Resources\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkDevice.h">
+      <Filter>ArkEngine\ArkDX11\Resources\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonStruct.h">
+      <Filter>CommonStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkTexture.h">
+      <Filter>ArkEngine\ArkDX11\Resources\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>DDSTextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="ArkBuffer.h">
+      <Filter>ArkEngine\ArkDX11\Resources\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>ArkEngine\ArkDX11\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMap.h">
+      <Filter>CubeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>GeometryGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="ICubeMap.h">
+      <Filter>ArkEngine\Interface\ICubeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="MathConverter.h">
+      <Filter>MathConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>LightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Light\Directional</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Light\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicLight.h">
+      <Filter>Light\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>AddingKIM</Filter>
+    </ClInclude>
+    <ClInclude Include="ParsingStructs.h">
+      <Filter>AddingKIM</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>AddingKIM</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimation.h">
+      <Filter>AddingKIM</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXMesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXAnimator.h">
+      <Filter>AddingKIM</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredBuffer.h">
+      <Filter>ArkEngine\ArkDX11\DeferredRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredRenderer.h">
+      <Filter>ArkEngine\ArkDX11\DeferredRendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Light\Spot</Filter>
+    </ClInclude>
+    <ClInclude Include="IdirLight.h">
+      <Filter>Light\Directional</Filter>
+    </ClInclude>
+    <ClInclude Include="IPointLight.h">
+      <Filter>Light\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="DWFont.h">
+      <Filter>ArkEngine\ArkDX11\Resources\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImage.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="IUIImage.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowApp.h">
+      <Filter>Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowBuffer.h">
+      <Filter>ArkEngine\ArkDX11\Shaodw</Filter>
+    </ClInclude>
+    <ClInclude Include="LineObject.h">
+      <Filter>ArkEngine\ArkDX11\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="ILineObject.h">
+      <Filter>ArkEngine\ArkDX11\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffect.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugObject.h">
+      <Filter>ArkEngine\ArkDX11\DebugObject</Filter>
+    </ClInclude>
+    <ClInclude Include="IDebugObject.h">
+      <Filter>ArkEngine\Interface\IDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleResource.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>MeshRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentMesh.h">
+      <Filter>TransparentMesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DX11Renderer.cpp">
+      <Filter>ArkEngine\ArkDX11\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTKFont.cpp">
+      <Filter>ArkEngine\ArkDX11\Resources\DXTKFont</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ArkEngine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkSpriteFont.cpp">
+      <Filter>ArkEngine\ArkDX11\Resources\DXTKFont</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ArkEngine\ArkDX11\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkEffect.cpp">
+      <Filter>ArkEngine\ArkDX11\Resources\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkDevice.cpp">
+      <Filter>ArkEngine\ArkDX11\Resources\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkTexture.cpp">
+      <Filter>ArkEngine\ArkDX11\Resources\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>DDSTextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="ArkBuffer.cpp">
+      <Filter>ArkEngine\ArkDX11\Resources\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>ArkEngine\ArkDX11\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMap.cpp">
+      <Filter>CubeMap</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>GeometryGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>LightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Light\Directional</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Light\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicLight.cpp">
+      <Filter>Light\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>AddingKIM</Filter>
+    </ClCompile>
+    <ClCompile Include="ParsingStructs.cpp">
+      <Filter>AddingKIM</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>AddingKIM</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimation.cpp">
+      <Filter>AddingKIM</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXMesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXAnimator.cpp">
+      <Filter>AddingKIM</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredBuffer.cpp">
+      <Filter>ArkEngine\ArkDX11\DeferredRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredRenderer.cpp">
+      <Filter>ArkEngine\ArkDX11\DeferredRendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Light\Spot</Filter>
+    </ClCompile>
+    <ClCompile Include="IdirLight.cpp">
+      <Filter>Light\Directional</Filter>
+    </ClCompile>
+    <ClCompile Include="IPointLight.cpp">
+      <Filter>Light\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugObject.cpp">
+      <Filter>ArkEngine\ArkDX11\DebugObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DWFont.cpp">
+      <Filter>ArkEngine\ArkDX11\Resources\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImage.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowApp.cpp">
+      <Filter>Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowBuffer.cpp">
+      <Filter>ArkEngine\ArkDX11\Shaodw</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Default\dllmain</Filter>
+    </ClCompile>
+    <ClCompile Include="LineObject.cpp">
+      <Filter>ArkEngine\ArkDX11\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEffect.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleResource.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>MeshRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentMesh.cpp">
+      <Filter>TransparentMesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="RunTimeDependency\Resources\FX\Skinning.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="RunTimeDependency\Resources\FX\Sky.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="RunTimeDependency\Resources\FX\BasicTex.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="RunTimeDependency\Resources\FX\BasicTexDeferred.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="RunTimeDependency\Resources\FX\finalDeferred.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="RunTimeDependency\Resources\FX\SkinningDeferred.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="RunTimeDependency\Resources\FX\color.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="RunTimeDependency\Resources\FX\UIImage.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="RunTimeDependency\Resources\FX\SkinningToonShader.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="RunTimeDependency\Resources\FX\finalDeferredToon.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="RunTimeDependency\Resources\FX\LightHelper.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\x64\Debug\Resources\FX\ParticleRain.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\x64\Debug\Resources\FX\ParticleFire.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

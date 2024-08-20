@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Materials>
+    <Material>
+        <Name>bridge_floor.005</Name>
+        <DiffuseFile>bridge_floor.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>bridge_floor_N.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="0"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>bridge_wall.005</Name>
+        <DiffuseFile>bridge_wall.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>bridge_wall_N.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>bridge_structure.007</Name>
+        <DiffuseFile>bridge_structure.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>bridge_structure_N.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>bridge_floor</Name>
+        <DiffuseFile>bridge_floor.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>bridge_floor_N.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="0"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>bridge_wall</Name>
+        <DiffuseFile>bridge_wall.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile></NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>bridge_structure</Name>
+        <DiffuseFile>bridge_structure.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>bridge_structure_N.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="0"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>bridge_floor.001</Name>
+        <DiffuseFile>bridge_floor.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>bridge_floor_N.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="0"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>bridge_wall.001</Name>
+        <DiffuseFile>bridge_wall.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>bridge_wall_N.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>bridge_structure.001</Name>
+        <DiffuseFile>bridge_structure.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>bridge_structure_N.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="0"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>bridge_structure.003</Name>
+        <DiffuseFile>bridge_structure.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>bridge_structure_N.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="0"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>bridge_floor.004</Name>
+        <DiffuseFile>bridge_floor.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>bridge_floor_N.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="0"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>bridge_wall.004</Name>
+        <DiffuseFile>bridge_wall.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>bridge_wall_N.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>bridge_structure.006</Name>
+        <DiffuseFile>bridge_structure.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>bridge_structure_N.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="0"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+</Materials>

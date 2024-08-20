@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9F316E83-5AE5-4939-A723-305A94F48005}</ProjectGuid>
+    <RootNamespace>example_win32_directx11</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>EpicTool</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..;..\..\backends;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;d3dcompiler.lib;dxgi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)/Lib/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)imgui;$(SolutionDir)ExLibrary\json-develop\include;$(SolutionDir)nfd\src\include;$(SolutionDir)imgui\backends;$(SolutionDir)KunrealEngine;$(SolutionDir)Bin\x64\Debug\;$(SolutionDir)boost_1_84_0;$(SolutionDir)imgui\Imguizmo\ImGuizmo-master;$(SolutionDir)Inc\Recast;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 /MP %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <DisableSpecificWarnings>4828</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dxgi.lib;nfd_d.lib;KunrealEngine.lib;d3dcompiler.lib;d3d11.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)/Lib/x64;$(SolutionDir)nfd\build\lib\Debug\x64;$(SolutionDir)Lib\;$(SolutionDir)Bin\x64\Debug\;$(SolutionDir)Bin\$(Platform)\$(Configuration)\;$(SolutionDir)boost_1_84_0;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)nfd\build\lib\Debug\x64" "$(TargetDir)" /Y /E
+xcopy "$(SolutionDir)EpicTool\ini" "$(TargetDir)" /Y /E
+if not exist "$(TargetDir)Resources\mapData" (
+    mkdir "$(TargetDir)Resources\mapData"
+)
+xcopy "$(SolutionDir)EpicTool\mapData" "$(TargetDir)Resources\mapData" /Y /E</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..;..\..\backends;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d11.lib;d3dcompiler.lib;dxgi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)/Lib/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..;..\..\backends;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d11.lib;d3dcompiler.lib;dxgi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(DXSDK_DIR)/Lib/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\boost_1_84_0\boost\pfr.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\config.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\core.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\core_name.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\cast_to_layout_compatible.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\config.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\core.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\core14_classic.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\core14_loophole.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\core17.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\core17_generated.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\core_name.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\core_name14_disabled.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\core_name20_static.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\detectors.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\fake_object.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\fields_count.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\for_each_field_impl.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\functional.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\io.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\make_flat_tuple_of_references.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\make_integer_sequence.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\offset_based_getter.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\possible_reflectable.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\rvalue_t.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\sequence_tuple.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\size_array.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\size_t_.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\stdarray.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\stdtuple.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\tie_from_structure_tuple.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\detail\unsafe_declval.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\functions_for.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\functors.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\io.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\io_fields.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\ops.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\ops_fields.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\traits.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\traits_fwd.hpp" />
+    <ClInclude Include="..\boost_1_84_0\boost\pfr\tuple_size.hpp" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_dx11.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_win32.h" />
+    <ClInclude Include="..\imgui\imconfig.h" />
+    <ClInclude Include="..\imgui\imgui.h" />
+    <ClInclude Include="..\imgui\Imguizmo\ImGuizmo-master\GraphEditor.h" />
+    <ClInclude Include="..\imgui\Imguizmo\ImGuizmo-master\ImCurveEdit.h" />
+    <ClInclude Include="..\imgui\Imguizmo\ImGuizmo-master\ImGradient.h" />
+    <ClInclude Include="..\imgui\Imguizmo\ImGuizmo-master\ImGuizmo.h" />
+    <ClInclude Include="..\imgui\Imguizmo\ImGuizmo-master\ImSequencer.h" />
+    <ClInclude Include="..\imgui\Imguizmo\ImGuizmo-master\ImZoomSlider.h" />
+    <ClInclude Include="..\imgui\imgui_internal.h" />
+    <ClInclude Include="..\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\imgui\imstb_truetype.h" />
+    <ClInclude Include="DebugType.h" />
+    <ClInclude Include="DebugWindow.h" />
+    <ClInclude Include="Deserialize.h" />
+    <ClInclude Include="ExportObj.h" />
+    <ClInclude Include="GameWindow.h" />
+    <ClInclude Include="GraphicWindow.h" />
+    <ClInclude Include="HierarchyWindow.h" />
+    <ClInclude Include="InspectorWindow.h" />
+    <ClInclude Include="ITemplateData.h" />
+    <ClInclude Include="IWindow.h" />
+    <ClInclude Include="MainTool.h" />
+    <ClInclude Include="NavimeshEditor.h" />
+    <ClInclude Include="ResourceWindow.h" />
+    <ClInclude Include="DataControlWindow.h" />
+    <ClInclude Include="Serialize.h" />
+    <ClInclude Include="ShowWindowManager.h" />
+    <ClInclude Include="Storable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\imgui\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\imgui\imgui.cpp" />
+    <ClCompile Include="..\imgui\Imguizmo\ImGuizmo-master\GraphEditor.cpp" />
+    <ClCompile Include="..\imgui\Imguizmo\ImGuizmo-master\ImCurveEdit.cpp" />
+    <ClCompile Include="..\imgui\Imguizmo\ImGuizmo-master\ImGradient.cpp" />
+    <ClCompile Include="..\imgui\Imguizmo\ImGuizmo-master\ImGuizmo.cpp" />
+    <ClCompile Include="..\imgui\Imguizmo\ImGuizmo-master\ImSequencer.cpp" />
+    <ClCompile Include="..\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="DebugWindow.cpp" />
+    <ClCompile Include="Deserialize.cpp" />
+    <ClCompile Include="ExportObj.cpp" />
+    <ClCompile Include="GameWindow.cpp" />
+    <ClCompile Include="GraphicWindow.cpp" />
+    <ClCompile Include="HierarchyWindow.cpp" />
+    <ClCompile Include="InspectorWindow.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainTool.cpp" />
+    <ClCompile Include="NavimeshEditor.cpp" />
+    <ClCompile Include="ResourceWindow.cpp" />
+    <ClCompile Include="DataControlWindow.cpp" />
+    <ClCompile Include="Serialize.cpp" />
+    <ClCompile Include="ShowWindowManager.cpp" />
+    <ClCompile Include="Storable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

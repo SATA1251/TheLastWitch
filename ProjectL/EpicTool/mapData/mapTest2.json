@@ -1,0 +1,2428 @@
+[
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {
+                "Camera": true
+            },
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {},
+            "meshRenderingState": true,
+            "name": "testCamera",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 17.322410583496094,
+                "position_y": 62.63972473144531,
+                "position_z": -108.13717651367188,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "scale_z": 1.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/floor.dds"
+                ],
+                "Mesh": [
+                    "cube/cube"
+                ],
+                "Normal": [
+                    "Resources/Textures/cube/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "plane",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": -1.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 100.0,
+                "scale_y": 1.0,
+                "scale_z": 100.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {
+                "Ambient_w": 1.0,
+                "Ambient_x": 0.4099999964237213,
+                "Ambient_y": 0.36000001430511475,
+                "Ambient_z": 0.1599999964237213,
+                "Diffuse_w": 1.0,
+                "Diffuse_x": 0.5099999904632568,
+                "Diffuse_y": 0.7699999809265137,
+                "Diffuse_z": 0.7699999809265137,
+                "Direction_x": -0.5199999809265137,
+                "Direction_y": -0.5,
+                "Direction_z": 0.5,
+                "Specular_w": 1.0,
+                "Specular_x": 1.0,
+                "Specular_y": 0.33000001311302185,
+                "Specular_z": 0.800000011920929
+            },
+            "lightType": {
+                "LightType": "DirectionalLight"
+            },
+            "meshRenderer": {},
+            "meshRenderingState": true,
+            "name": "DirectionalLight",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 30.0,
+                "position_z": -55.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "scale_z": 1.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {
+                "Ambient_w": 1.0,
+                "Ambient_x": 1.0,
+                "Ambient_y": 1.0,
+                "Ambient_z": 1.0,
+                "Diffuse_w": 1.0,
+                "Diffuse_x": 1.0,
+                "Diffuse_y": 1.0,
+                "Diffuse_z": 1.0,
+                "Range": 100.0,
+                "Specular_w": 1.0,
+                "Specular_x": 1.0,
+                "Specular_y": 1.0,
+                "Specular_z": 1.0
+            },
+            "lightType": {
+                "LightType": "PointLight"
+            },
+            "meshRenderer": {},
+            "meshRenderingState": true,
+            "name": "pointLightTest",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 0.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "scale_z": 1.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {
+                "Ambient_w": 1.0,
+                "Ambient_x": 1.0,
+                "Ambient_y": 1.0,
+                "Ambient_z": 1.0,
+                "Diffuse_w": 1.0,
+                "Diffuse_x": 1.0,
+                "Diffuse_y": 1.0,
+                "Diffuse_z": 1.0,
+                "Range": 50.0,
+                "Specular_w": 1.0,
+                "Specular_x": 1.0,
+                "Specular_y": 1.0,
+                "Specular_z": 1.0
+            },
+            "lightType": {
+                "LightType": "PointLight"
+            },
+            "meshRenderer": {},
+            "meshRenderingState": true,
+            "name": "pointLightTest2",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -70.0,
+                "position_y": 0.0,
+                "position_z": 50.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "scale_z": 1.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_root_large_03/M_largeroots_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_root_large_03/SM_root_large_03"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_root_large_03/M_largeroots_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "root",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 65.3946762084961,
+                "position_y": 0.3596920967102051,
+                "position_z": 6.477012634277344,
+                "rotation_x": -22.0,
+                "rotation_y": -43.0,
+                "rotation_z": 5.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_building_ruins_01/M_stone_wall_old_diff.png",
+                    "Resources/Textures/SM_building_ruins_01/M_stoneblocks_ruins_BaseMap.png",
+                    "Resources/Textures/SM_building_ruins_01/M_columns_ruins_BaseMap.png",
+                    "Resources/Textures/SM_building_ruins_01/M_columns_square_ruins_01_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_building_ruins_01/SM_building_ruins_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_building_ruins_01/M_stone_wall_old_nrm.png",
+                    "Resources/Textures/SM_building_ruins_01/M_stoneblocks_ruins_Normal.png",
+                    "Resources/Textures/SM_building_ruins_01/M_columns_ruins_Normal.png",
+                    "Resources/Textures/SM_building_ruins_01/M_columns_square_ruins_01_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "ruin",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 0.0,
+                "position_z": 74.39370727539063,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_platform_ruins_01/M_stoneblocks_ruins_BaseMap.png",
+                    "Resources/Textures/SM_platform_ruins_01/M_groundtiles_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_platform_ruins_01/SM_platform_ruins_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_platform_ruins_01/M_stoneblocks_ruins_Normal.png",
+                    "Resources/Textures/SM_platform_ruins_01/M_groundtiles_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Tile",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 12.265604019165039,
+                "position_y": 0.0,
+                "position_z": 82.82472229003906,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_platform_ruins_01/M_stoneblocks_ruins_BaseMap.png",
+                    "Resources/Textures/SM_platform_ruins_01/M_groundtiles_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_platform_ruins_01/SM_platform_ruins_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_platform_ruins_01/M_stoneblocks_ruins_Normal.png",
+                    "Resources/Textures/SM_platform_ruins_01/M_groundtiles_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Tile (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 11.705403327941895,
+                "position_y": 0.0,
+                "position_z": 59.47782516479492,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_platform_ruins_01/M_stoneblocks_ruins_BaseMap.png",
+                    "Resources/Textures/SM_platform_ruins_01/M_groundtiles_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_platform_ruins_01/SM_platform_ruins_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_platform_ruins_01/M_stoneblocks_ruins_Normal.png",
+                    "Resources/Textures/SM_platform_ruins_01/M_groundtiles_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Tile (2)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -11.981924057006836,
+                "position_y": 0.0,
+                "position_z": 82.82472229003906,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_platform_ruins_01/M_stoneblocks_ruins_BaseMap.png",
+                    "Resources/Textures/SM_platform_ruins_01/M_groundtiles_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_platform_ruins_01/SM_platform_ruins_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_platform_ruins_01/M_stoneblocks_ruins_Normal.png",
+                    "Resources/Textures/SM_platform_ruins_01/M_groundtiles_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Tile (3)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -11.981924057006836,
+                "position_y": 0.0,
+                "position_z": 59.47782516479492,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_staircase_ruins_01/M_stonefence_ruins_BaseMap.png",
+                    "Resources/Textures/SM_staircase_ruins_01/M_columns_square_ruins_01_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_staircase_ruins_01/SM_staircase_ruins_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_staircase_ruins_01/M_stoneblocks_ruins_Normal.png",
+                    "Resources/Textures/SM_staircase_ruins_01/M_columns_square_ruins_01_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "staircase",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 12.710777282714844,
+                "position_y": 0.0,
+                "position_z": 42.00495529174805,
+                "rotation_x": 0.0,
+                "rotation_y": -0.0,
+                "rotation_z": -0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_staircase_ruins_01/M_stonefence_ruins_BaseMap.png",
+                    "Resources/Textures/SM_staircase_ruins_01/M_columns_square_ruins_01_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_staircase_ruins_01/SM_staircase_ruins_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_staircase_ruins_01/M_stoneblocks_ruins_Normal.png",
+                    "Resources/Textures/SM_staircase_ruins_01/M_columns_square_ruins_01_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "staircase (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -12.392083168029785,
+                "position_y": 0.0,
+                "position_z": 42.01995849609375,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_platform_circle/M_stoneblocks_ruins_BaseMap.png",
+                    "Resources/Textures/SM_platform_circle/M_stone_wall_old_diff.png"
+                ],
+                "Mesh": [
+                    "SM_platform_circle/SM_platform_circle"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_platform_circle/M_stoneblocks_ruins_Normal.png",
+                    "Resources/Textures/SM_platform_circle/M_stone_wall_old_nrm.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "circleTile",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 0.0,
+                "position_z": -29.644287109375,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.25,
+                "scale_y": 0.019999999552965164,
+                "scale_z": 0.25
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stonefence_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_groundtiles_ruins_05/SM_groundtiles_ruins_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "road",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 2.3123362064361572,
+                "position_y": 0.03407430648803711,
+                "position_z": 1.2767729759216309,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.17000000178813934,
+                "scale_y": 0.05000000074505806,
+                "scale_z": 0.17000000178813934
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stonefence_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_groundtiles_ruins_05/SM_groundtiles_ruins_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "road (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -2.329883575439453,
+                "position_y": 0.0,
+                "position_z": 24.238269805908203,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.17000000178813934,
+                "scale_y": 0.05000000074505806,
+                "scale_z": 0.17000000178813934
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_04/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_04/SM_wall_stoneblocks_04"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_04/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Wall",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -41.090030670166016,
+                "position_y": 0.0,
+                "position_z": 28.31610870361328,
+                "rotation_x": 0.0,
+                "rotation_y": -36.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_rubble_ruins_01/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_rubble_ruins_01/SM_rubble_ruins_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_rubble_ruins_01/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Rock_Bloken",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -28.65157127380371,
+                "position_y": 0.0,
+                "position_z": 35.53893280029297,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_04/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_04/SM_wall_stoneblocks_04"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_04/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Wall (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -58.13568115234375,
+                "position_y": 0.0,
+                "position_z": 15.867713928222656,
+                "rotation_x": 0.0,
+                "rotation_y": -36.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_02/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_02/SM_wall_stoneblocks_02"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_02/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Wall (2)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -74.96610260009766,
+                "position_y": 0.0,
+                "position_z": 3.840811252593994,
+                "rotation_x": 0.0,
+                "rotation_y": -36.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_tree_large_ancient_01/M_tree_large_ruins_BaseMap.png",
+                    "Resources/Textures/SM_tree_large_ancient_01/M_leaves_standard_04.png"
+                ],
+                "Mesh": [
+                    "SM_tree_large_ancient_01/SM_tree_large_ancient_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_tree_large_ancient_01/M_tree_large_ruins_Normal.png",
+                    "Resources/Textures/SM_tree_large_ancient_01/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Ancient_Tree",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -40.31989288330078,
+                "position_y": -4.337897300720215,
+                "position_z": 39.94829559326172,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.20000000298023224,
+                "scale_y": 0.20000000298023224,
+                "scale_z": 0.20000000298023224
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_02/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_02/SM_wall_stoneblocks_02"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_02/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Wall (3)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 50.41918182373047,
+                "position_y": -1.9073486328125e-06,
+                "position_z": 30.62345314025879,
+                "rotation_x": 0.0,
+                "rotation_y": 32.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_05/SM_wall_stoneblocks_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Wall (4)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 67.88642120361328,
+                "position_y": 9.876641797745833e-07,
+                "position_z": 20.480112075805664,
+                "rotation_x": 0.0,
+                "rotation_y": -147.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_05/SM_wall_stoneblocks_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Wall (5)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 33.642574310302734,
+                "position_y": -1.9073486328125e-06,
+                "position_z": 41.728294372558594,
+                "rotation_x": 0.0,
+                "rotation_y": -147.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_structure_cylindrical/M_columns_ruins_BaseMap.png",
+                    "Resources/Textures/SM_structure_cylindrical/M_cylindircal_top_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_structure_cylindrical/SM_structure_cylindrical"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_structure_cylindrical/M_columns_ruins_Normal.png",
+                    "Resources/Textures/SM_structure_cylindrical/M_cylindircal_top_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "structure_cylindrica",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 70.73389434814453,
+                "position_y": 0.0,
+                "position_z": -20.002866744995117,
+                "rotation_x": 0.0,
+                "rotation_y": 73.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_root_large_01/M_largeroots_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_root_large_01/SM_root_large_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_root_large_01/M_largeroots_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "root (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 93.17623138427734,
+                "position_y": -3.0149974822998047,
+                "position_z": -7.514791488647461,
+                "rotation_x": 348.11199951171875,
+                "rotation_y": -39.97200012207031,
+                "rotation_z": 59.4109992980957,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_rubble_ruins_01/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_rubble_ruins_01/SM_rubble_ruins_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_rubble_ruins_01/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "rock (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 85.20022583007813,
+                "position_y": -9.5367431640625e-07,
+                "position_z": -38.16645431518555,
+                "rotation_x": 0.0,
+                "rotation_y": 22.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.20000000298023224,
+                "scale_y": 0.20000000298023224,
+                "scale_z": 0.20000000298023224
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_05/SM_wall_stoneblocks_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Wall (6)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 80.70742797851563,
+                "position_y": 0.0,
+                "position_z": -55.557640075683594,
+                "rotation_x": 0.0,
+                "rotation_y": -90.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_tree_ruins_02/M_tree_ruins_diff.png",
+                    "Resources/Textures/SM_tree_ruins_02/M_leaves_standard_04.png"
+                ],
+                "Mesh": [
+                    "SM_tree_ruins_02/SM_tree_ruins_02"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_tree_ruins_02/M_tree_ruins_normal.png",
+                    "Resources/Textures/SM_tree_ruins_02/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "tree",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 24.509071350097656,
+                "position_y": 0.0,
+                "position_z": -97.43101501464844,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_tree_ruins_02/M_tree_ruins_diff.png",
+                    "Resources/Textures/SM_tree_ruins_02/M_leaves_standard_04.png"
+                ],
+                "Mesh": [
+                    "SM_tree_ruins_02/SM_tree_ruins_02"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_tree_ruins_02/M_tree_ruins_normal.png",
+                    "Resources/Textures/SM_tree_ruins_02/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "tree (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 9.491958618164063,
+                "position_y": 0.0,
+                "position_z": -97.43101501464844,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stonefence_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_groundtiles_ruins_05/SM_groundtiles_ruins_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "road (2)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 2.3343677520751953,
+                "position_y": 0.0,
+                "position_z": 24.43532371520996,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.17000000178813934,
+                "scale_y": 0.05000000074505806,
+                "scale_z": 0.17000000178813934
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stonefence_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_groundtiles_ruins_05/SM_groundtiles_ruins_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "road (3)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -2.3304755687713623,
+                "position_y": 0.03407430648803711,
+                "position_z": 1.2767729759216309,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.17000000178813934,
+                "scale_y": 0.05000000074505806,
+                "scale_z": 0.17000000178813934
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_arch_large_ruins/M_columns_square_ruins_01_BaseMap.png",
+                    "Resources/Textures/SM_arch_large_ruins/M_columns_square_ruins_02_BaseMap.png",
+                    "Resources/Textures/SM_arch_large_ruins/M_edges_ruins_BaseMap.png",
+                    "Resources/Textures/SM_arch_large_ruins/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_arch_large_ruins/SM_arch_large_ruins"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_arch_large_ruins/M_columns_square_ruins_01_Normal.png",
+                    "Resources/Textures/SM_arch_large_ruins/M_columns_square_ruins_02_Normal.png",
+                    "Resources/Textures/SM_arch_large_ruins/M_edges_ruins_Normal.png",
+                    "Resources/Textures/SM_arch_large_ruins/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "arch",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -65.609375,
+                "position_y": 14.858231544494629,
+                "position_z": -89.10973358154297,
+                "rotation_x": 0.0,
+                "rotation_y": 43.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_05/SM_wall_stoneblocks_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "wall",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -46.90464401245117,
+                "position_y": 0.0,
+                "position_z": -97.43408966064453,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_rubble_ruins_02/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_rubble_ruins_02/SM_rubble_ruins_02"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_rubble_ruins_02/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "rock",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -26.37424087524414,
+                "position_y": 1.961024281627033e-06,
+                "position_z": -95.84393310546875,
+                "rotation_x": 0.0,
+                "rotation_y": -10.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.25,
+                "scale_y": 0.25,
+                "scale_z": 0.25
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_05/SM_wall_stoneblocks_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "wall (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -6.636979103088379,
+                "position_y": 0.0,
+                "position_z": -95.5,
+                "rotation_x": 0.0,
+                "rotation_y": 180.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_tree_ruins_02/M_tree_ruins_diff.png",
+                    "Resources/Textures/SM_tree_ruins_02/M_leaves_standard_04.png"
+                ],
+                "Mesh": [
+                    "SM_tree_ruins_02/SM_tree_ruins_02"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_tree_ruins_02/M_tree_ruins_normal.png",
+                    "Resources/Textures/SM_tree_ruins_02/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "tree (2)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -91.86762237548828,
+                "position_y": 0.0,
+                "position_z": -77.22151184082031,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.15000000596046448,
+                "scale_y": 0.15000000596046448,
+                "scale_z": 0.15000000596046448
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/PlayerWithCloak/T_Clothes_Albedo.tga",
+                    "Resources/Textures/PlayerWithCloak/T_Albedo_Body_Nude.tga",
+                    "Resources/Textures/PlayerWithCloak/T_Hair_Albedo.tga"
+                ],
+                "Mesh": [
+                    "PlayerWithCloak/PlayerWithCloak"
+                ],
+                "Normal": [
+                    "Resources/Textures/PlayerWithCloak/",
+                    "Resources/Textures/PlayerWithCloak/",
+                    "Resources/Textures/PlayerWithCloak/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Player",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -49.47652816772461,
+                "position_y": 0.0,
+                "position_z": -62.74220657348633,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.05000000074505806,
+                "scale_y": 0.05000000074505806,
+                "scale_z": 0.05000000074505806
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_tree_large_ancient_01/M_tree_large_ruins_BaseMap.png",
+                    "Resources/Textures/SM_tree_large_ancient_01/M_leaves_standard_04.png"
+                ],
+                "Mesh": [
+                    "SM_tree_large_ancient_01/SM_tree_large_ancient_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_tree_large_ancient_01/M_tree_large_ruins_Normal.png",
+                    "Resources/Textures/SM_tree_large_ancient_01/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Ancient_Tree (2) (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 79.02232360839844,
+                "position_y": -2.3698503971099854,
+                "position_z": -69.77629089355469,
+                "rotation_x": -15.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_05/SM_wall_stoneblocks_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "wall (2)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -81.9029769897461,
+                "position_y": 0.0,
+                "position_z": -73.93097686767578,
+                "rotation_x": 0.0,
+                "rotation_y": 56.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_tree_large_ancient_01/M_tree_large_ruins_BaseMap.png",
+                    "Resources/Textures/SM_tree_large_ancient_01/M_leaves_standard_04.png"
+                ],
+                "Mesh": [
+                    "SM_tree_large_ancient_01/SM_tree_large_ancient_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_tree_large_ancient_01/M_tree_large_ruins_Normal.png",
+                    "Resources/Textures/SM_tree_large_ancient_01/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "tree (2) (2)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -78.69233703613281,
+                "position_y": -1.9240975379943848,
+                "position_z": 24.154464721679688,
+                "rotation_x": 0.0,
+                "rotation_y": 9.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_05/SM_wall_stoneblocks_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "wall (3)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -88.22596740722656,
+                "position_y": 3.3332705697830534e-06,
+                "position_z": -54.07032012939453,
+                "rotation_x": 0.0,
+                "rotation_y": -101.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10999999940395355,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_root_large_01/M_largeroots_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_root_large_01/SM_root_large_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_root_large_01/M_largeroots_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Root",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -80.23835754394531,
+                "position_y": -8.386026382446289,
+                "position_z": 15.737247467041016,
+                "rotation_x": 16.0,
+                "rotation_y": -193.0,
+                "rotation_z": 39.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stonefence_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_groundtiles_ruins_05/SM_groundtiles_ruins_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "road (3) (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -31.175874710083008,
+                "position_y": 0.0340743325650692,
+                "position_z": -51.81327438354492,
+                "rotation_x": 0.0,
+                "rotation_y": 46.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.17000000178813934,
+                "scale_y": 0.05000000074505806,
+                "scale_z": 0.17000000178813934
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stonefence_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_groundtiles_ruins_05/SM_groundtiles_ruins_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "road (3) (2)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -27.60930061340332,
+                "position_y": 0.0340704470872879,
+                "position_z": -55.457393646240234,
+                "rotation_x": 0.0,
+                "rotation_y": 46.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.17000000178813934,
+                "scale_y": 0.05000000074505806,
+                "scale_z": 0.17000000178813934
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stonefence_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_groundtiles_ruins_05/SM_groundtiles_ruins_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "road (3) (3)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -44.35425567626953,
+                "position_y": 0.03407779708504677,
+                "position_z": -71.47209167480469,
+                "rotation_x": 0.0,
+                "rotation_y": 46.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.17000000178813934,
+                "scale_y": 0.05000000074505806,
+                "scale_z": 0.17000000178813934
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stonefence_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_groundtiles_ruins_05/SM_groundtiles_ruins_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_groundtiles_ruins_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "road (3) (4)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -47.77833938598633,
+                "position_y": 0.03406670317053795,
+                "position_z": -67.7719955444336,
+                "rotation_x": 0.0,
+                "rotation_y": 46.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.17000000178813934,
+                "scale_y": 0.05000000074505806,
+                "scale_z": 0.17000000178813934
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_05/SM_wall_stoneblocks_05"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_05/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "wall (3) (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -86.44147491455078,
+                "position_y": -3.814697265625e-06,
+                "position_z": -12.6292085647583,
+                "rotation_x": 0.0,
+                "rotation_y": 106.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_root_large_02/M_largeroots_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_root_large_02/SM_root_large_02"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_root_large_02/M_largeroots_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "root (2) (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 42.950111389160156,
+                "position_y": -1.35288667678833,
+                "position_z": -87.30293273925781,
+                "rotation_x": 0.0,
+                "rotation_y": 66.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_root_large_01/M_largeroots_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_root_large_01/SM_root_large_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_root_large_01/M_largeroots_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Root (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -100.60941314697266,
+                "position_y": -2.426724910736084,
+                "position_z": -34.38203048706055,
+                "rotation_x": 17.0,
+                "rotation_y": -7.0,
+                "rotation_z": -83.0,
+                "scale_x": 0.10499999672174454,
+                "scale_y": 0.10499999672174454,
+                "scale_z": 0.10499999672174454
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_structure_cylindrical/M_columns_ruins_BaseMap.png",
+                    "Resources/Textures/SM_structure_cylindrical/M_cylindircal_top_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_structure_cylindrical/SM_structure_cylindrical"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_structure_cylindrical/M_columns_ruins_Normal.png",
+                    "Resources/Textures/SM_structure_cylindrical/M_cylindircal_top_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "structure_cylindrica (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -70.0,
+                "position_y": 0.0,
+                "position_z": -20.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_rubble_ruins_01/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_rubble_ruins_01/SM_rubble_ruins_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_rubble_ruins_01/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Rock",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 63.88039779663086,
+                "position_y": 8.486268825436127e-07,
+                "position_z": -76.17774963378906,
+                "rotation_x": 0.0,
+                "rotation_y": -161.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.20000000298023224,
+                "scale_y": 0.20000000298023224,
+                "scale_z": 0.20000000298023224
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_tree_large_ancient_01/M_tree_large_ruins_BaseMap.png",
+                    "Resources/Textures/SM_tree_large_ancient_01/M_leaves_standard_04.png"
+                ],
+                "Mesh": [
+                    "SM_tree_large_ancient_01/SM_tree_large_ancient_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_tree_large_ancient_01/M_tree_large_ruins_Normal.png",
+                    "Resources/Textures/SM_tree_large_ancient_01/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "tree (2) (1) (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -95.19669342041016,
+                "position_y": -2.483945369720459,
+                "position_z": -39.038658142089844,
+                "rotation_x": 0.0,
+                "rotation_y": 60.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_tree_ruins_02/M_tree_ruins_diff.png",
+                    "Resources/Textures/SM_tree_ruins_02/M_leaves_standard_04.png"
+                ],
+                "Mesh": [
+                    "SM_tree_ruins_02/SM_tree_ruins_02"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_tree_ruins_02/M_tree_ruins_normal.png",
+                    "Resources/Textures/SM_tree_ruins_02/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "tree (1) (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -73.0256576538086,
+                "position_y": 0.0,
+                "position_z": -100.24291229248047,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.15000000596046448,
+                "scale_y": 0.15000000596046448,
+                "scale_z": 0.15000000596046448
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_tree_large_ancient_01/M_tree_large_ruins_BaseMap.png",
+                    "Resources/Textures/SM_tree_large_ancient_01/M_leaves_standard_04.png"
+                ],
+                "Mesh": [
+                    "SM_tree_large_ancient_01/SM_tree_large_ancient_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_tree_large_ancient_01/M_tree_large_ruins_Normal.png",
+                    "Resources/Textures/SM_tree_large_ancient_01/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Ancient_Tree (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 49.722900390625,
+                "position_y": -4.337897300720215,
+                "position_z": 42.47835159301758,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.20000000298023224,
+                "scale_y": 0.20000000298023224,
+                "scale_z": 0.20000000298023224
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_rubble_ruins_01/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_rubble_ruins_01/SM_rubble_ruins_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_rubble_ruins_01/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "wall (3) (1) (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -83.10089111328125,
+                "position_y": -3.814697265625e-06,
+                "position_z": -30.034202575683594,
+                "rotation_x": 0.0,
+                "rotation_y": 106.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.20000000298023224,
+                "scale_y": 0.20000000298023224,
+                "scale_z": 0.20000000298023224
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_wall_stoneblocks_02/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_wall_stoneblocks_02/SM_wall_stoneblocks_02"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_wall_stoneblocks_02/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Wall (4) (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 79.07817840576172,
+                "position_y": 8.737322900742583e-07,
+                "position_z": 4.412406921386719,
+                "rotation_x": 0.0,
+                "rotation_y": -105.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.10000000149011612,
+                "scale_y": 0.10000000149011612,
+                "scale_z": 0.10000000149011612
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_tree_large_ancient_01/M_tree_large_ruins_BaseMap.png",
+                    "Resources/Textures/SM_tree_large_ancient_01/M_leaves_standard_04.png"
+                ],
+                "Mesh": [
+                    "SM_tree_large_ancient_01/SM_tree_large_ancient_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_tree_large_ancient_01/M_tree_large_ruins_Normal.png",
+                    "Resources/Textures/SM_tree_large_ancient_01/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Ancient_Tree (2) (1) (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 91.85992431640625,
+                "position_y": -5.234216213226318,
+                "position_z": -19.865880966186523,
+                "rotation_x": 0.0,
+                "rotation_y": 27.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.1899999976158142,
+                "scale_y": 0.1899999976158142,
+                "scale_z": 0.1899999976158142
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/SM_rubble_ruins_01/M_stoneblocks_ruins_BaseMap.png"
+                ],
+                "Mesh": [
+                    "SM_rubble_ruins_01/SM_rubble_ruins_01"
+                ],
+                "Normal": [
+                    "Resources/Textures/SM_rubble_ruins_01/M_stoneblocks_ruins_Normal.png"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "rock (1) (1)",
+            "parent": {},
+            "particle": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 85.93238067626953,
+                "position_y": 0.0,
+                "position_z": -10.438764572143555,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 0.15000000596046448,
+                "scale_y": 0.15000000596046448,
+                "scale_z": 0.15000000596046448
+            }
+        }
+    }
+]

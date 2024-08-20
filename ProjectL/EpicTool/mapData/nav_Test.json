@@ -1,0 +1,697 @@
+[
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/floor.dds"
+                ],
+                "Mesh": [
+                    "cube/cube"
+                ],
+                "Normal": [
+                    "Resources/Textures/cube/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "plane",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": -1.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 100.0,
+                "scale_y": 1.0,
+                "scale_z": 100.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {
+                "ImageName": "Resources/Textures/Resources/Textures/BackGround.png",
+                "ImageStatus": "False"
+            },
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {},
+            "meshRenderingState": true,
+            "name": "zeolight_Image",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 0.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 10.0,
+                "scale_y": 10.0,
+                "scale_z": 1.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {
+                "ImageName": "Resources/Textures/Resources/Textures/Stage1_test.png",
+                "ImageStatus": "False"
+            },
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {},
+            "meshRenderingState": true,
+            "name": "Button_Image1",
+            "parent": {
+                "ParentName": "zeolight_Image"
+            },
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 0.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": -0.0,
+                "rotation_z": -0.0,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "scale_z": 1.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {
+                "ImageName": "Resources/Textures/Resources/Textures/Stage2_test.png",
+                "ImageStatus": "False"
+            },
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {},
+            "meshRenderingState": true,
+            "name": "Button_Image2",
+            "parent": {
+                "ParentName": "zeolight_Image"
+            },
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 0.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": -0.0,
+                "rotation_z": -0.0,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "scale_z": 1.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {
+                "ImageName": "Resources/Textures/Resources/Textures/Stage3_test.png",
+                "ImageStatus": "False"
+            },
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {},
+            "meshRenderingState": true,
+            "name": "Button_Image3",
+            "parent": {
+                "ParentName": "zeolight_Image"
+            },
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 0.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": -0.0,
+                "rotation_z": -0.0,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "scale_z": 1.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {
+                "ImageName": "Resources/Textures/Resources/Textures/Stage4_test.png",
+                "ImageStatus": "False"
+            },
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {},
+            "meshRenderingState": true,
+            "name": "Button_Image4",
+            "parent": {
+                "ParentName": "zeolight_Image"
+            },
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 0.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": -0.0,
+                "rotation_z": -0.0,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "scale_z": 1.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {
+                "Ambient_w": 1.0,
+                "Ambient_x": 0.30000001192092896,
+                "Ambient_y": 0.30000001192092896,
+                "Ambient_z": 0.30000001192092896,
+                "Diffuse_w": 1.0,
+                "Diffuse_x": 1.0,
+                "Diffuse_y": 1.0,
+                "Diffuse_z": 1.0,
+                "Direction_x": -0.5,
+                "Direction_y": -0.5,
+                "Direction_z": 0.5,
+                "Specular_w": 1.0,
+                "Specular_x": 1.0,
+                "Specular_y": 1.0,
+                "Specular_z": 1.0
+            },
+            "lightType": {
+                "LightType": "DirectionalLight"
+            },
+            "meshRenderer": {},
+            "meshRenderingState": true,
+            "name": "DirectionalLight",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 0.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "scale_z": 1.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {
+                "Ambient_w": 1.0,
+                "Ambient_x": 1.0,
+                "Ambient_y": 1.0,
+                "Ambient_z": 1.0,
+                "Diffuse_w": 1.0,
+                "Diffuse_x": 1.0,
+                "Diffuse_y": 1.0,
+                "Diffuse_z": 1.0,
+                "Range": 100.0,
+                "Specular_w": 1.0,
+                "Specular_x": 1.0,
+                "Specular_y": 1.0,
+                "Specular_z": 1.0
+            },
+            "lightType": {
+                "LightType": "PointLight"
+            },
+            "meshRenderer": {},
+            "meshRenderingState": true,
+            "name": "pointLightTest",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 0.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "scale_z": 1.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {
+                "Ambient_w": 1.0,
+                "Ambient_x": 1.0,
+                "Ambient_y": 1.0,
+                "Ambient_z": 1.0,
+                "Diffuse_w": 1.0,
+                "Diffuse_x": 1.0,
+                "Diffuse_y": 1.0,
+                "Diffuse_z": 1.0,
+                "Range": 50.0,
+                "Specular_w": 1.0,
+                "Specular_x": 1.0,
+                "Specular_y": 1.0,
+                "Specular_z": 1.0
+            },
+            "lightType": {
+                "LightType": "PointLight"
+            },
+            "meshRenderer": {},
+            "meshRenderingState": true,
+            "name": "pointLightTest2",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -70.0,
+                "position_y": 0.0,
+                "position_z": 50.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 1.0,
+                "scale_y": 1.0,
+                "scale_z": 1.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/cube/"
+                ],
+                "Mesh": [
+                    "cube/cube"
+                ],
+                "Normal": [
+                    "Resources/Textures/cube/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Create Empty",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 4.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 4.0,
+                "scale_y": 4.0,
+                "scale_z": 4.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/cube/"
+                ],
+                "Mesh": [
+                    "cube/cube"
+                ],
+                "Normal": [
+                    "Resources/Textures/cube/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Create Empty (1)",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 20.0,
+                "position_y": 4.0,
+                "position_z": 20.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 4.0,
+                "scale_y": 4.0,
+                "scale_z": 4.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/cube/"
+                ],
+                "Mesh": [
+                    "cube/cube"
+                ],
+                "Normal": [
+                    "Resources/Textures/cube/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Create Empty (2)",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 20.0,
+                "position_y": 4.0,
+                "position_z": -20.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 4.0,
+                "scale_y": 4.0,
+                "scale_z": 4.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/cube/"
+                ],
+                "Mesh": [
+                    "cube/cube"
+                ],
+                "Normal": [
+                    "Resources/Textures/cube/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Create Empty (3)",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -20.0,
+                "position_y": 4.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 4.0,
+                "scale_y": 4.0,
+                "scale_z": 4.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/cube/"
+                ],
+                "Mesh": [
+                    "cube/cube"
+                ],
+                "Normal": [
+                    "Resources/Textures/cube/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Create Empty (4)",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 20.0,
+                "position_y": 4.0,
+                "position_z": 0.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 4.0,
+                "scale_y": 4.0,
+                "scale_z": 4.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/cube/"
+                ],
+                "Mesh": [
+                    "cube/cube"
+                ],
+                "Normal": [
+                    "Resources/Textures/cube/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Create Empty (5)",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -20.0,
+                "position_y": 4.0,
+                "position_z": 20.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 4.0,
+                "scale_y": 4.0,
+                "scale_z": 4.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/cube/"
+                ],
+                "Mesh": [
+                    "cube/cube"
+                ],
+                "Normal": [
+                    "Resources/Textures/cube/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Create Empty (6)",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": -20.0,
+                "position_y": 4.0,
+                "position_z": -20.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 4.0,
+                "scale_y": 4.0,
+                "scale_z": 4.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/cube/"
+                ],
+                "Mesh": [
+                    "cube/cube"
+                ],
+                "Normal": [
+                    "Resources/Textures/cube/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Create Empty (7)",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 4.0,
+                "position_z": -20.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 4.0,
+                "scale_y": 4.0,
+                "scale_z": 4.0
+            }
+        }
+    },
+    {
+        "POD": {
+            "animationFrame": -431602080.0,
+            "collider": {},
+            "customComponent": {},
+            "image": {},
+            "light": {},
+            "lightType": {},
+            "meshRenderer": {
+                "Diffuse": [
+                    "Resources/Textures/cube/"
+                ],
+                "Mesh": [
+                    "cube/cube"
+                ],
+                "Normal": [
+                    "Resources/Textures/cube/"
+                ]
+            },
+            "meshRenderingState": true,
+            "name": "Create Empty (8)",
+            "parent": {},
+            "sound_Is3D": [],
+            "sound_IsLoop": [],
+            "sound_Name": [],
+            "sound_Volume": [],
+            "transform": {
+                "position_x": 0.0,
+                "position_y": 4.0,
+                "position_z": 20.0,
+                "rotation_x": 0.0,
+                "rotation_y": 0.0,
+                "rotation_z": 0.0,
+                "scale_x": 4.0,
+                "scale_y": 4.0,
+                "scale_z": 4.0
+            }
+        }
+    }
+]

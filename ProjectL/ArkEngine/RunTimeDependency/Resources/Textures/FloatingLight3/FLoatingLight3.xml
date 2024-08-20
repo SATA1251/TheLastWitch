@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Materials>
+    <Material>
+        <Name>Material.002</Name>
+        <DiffuseFile>rocks_gray_mid_Albedo.tga</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>rocks_mid_Normal.tga</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+    <Material>
+        <Name>Material.034</Name>
+        <DiffuseFile>15_15_Light_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>15_15_Light_normal.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.80000001" G="0.80000001" B="0.80000001" A="1"/>
+        <Specular R="0.80000001" G="0.80000001" B="0.80000001" A="25"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+</Materials>

@@ -1,0 +1,62 @@
+[
+    {
+        "ObjectName": "MainCamera",
+        "SceneName": "Main",
+        "TransformData": {
+            "position_x": 0.0,
+            "position_y": 0.0,
+            "position_z": 0.0,
+            "rotation_x": 0.0,
+            "rotation_y": 0.0,
+            "rotation_z": 0.0,
+            "scale_x": 0.0,
+            "scale_y": 0.0,
+            "scale_z": 0.0
+        }
+    },
+    {
+        "ObjectName": "Cube",
+        "SceneName": "Main",
+        "TransformData": {
+            "position_x": 0.0,
+            "position_y": 0.0,
+            "position_z": 0.0,
+            "rotation_x": 0.0,
+            "rotation_y": 0.0,
+            "rotation_z": 0.0,
+            "scale_x": 0.0,
+            "scale_y": 0.0,
+            "scale_z": 0.0
+        }
+    },
+    {
+        "ObjectName": "Cube(1)",
+        "SceneName": "Main",
+        "TransformData": {
+            "position_x": 0.0,
+            "position_y": 0.0,
+            "position_z": 0.0,
+            "rotation_x": 0.0,
+            "rotation_y": 0.0,
+            "rotation_z": 0.0,
+            "scale_x": 0.0,
+            "scale_y": 0.0,
+            "scale_z": 0.0
+        }
+    },
+    {
+        "ObjectName": "Sphere",
+        "SceneName": "Main",
+        "TransformData": {
+            "position_x": 0.0,
+            "position_y": 0.0,
+            "position_z": 0.0,
+            "rotation_x": 0.0,
+            "rotation_y": 0.0,
+            "rotation_z": 0.0,
+            "scale_x": 0.0,
+            "scale_y": 0.0,
+            "scale_z": 0.0
+        }
+    }
+]

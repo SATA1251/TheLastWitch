@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GraphicsHeader">
+      <UniqueIdentifier>{bd992ccd-f782-4c61-a009-368bb1f9e304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="GraphicsInterface">
+      <UniqueIdentifier>{7189cef2-7192-4dd4-98cf-3fdc287c509c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsInterface.h">
+      <Filter>GraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsRenderable.h">
+      <Filter>GraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsCamera.h">
+      <Filter>GraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsHeaders.h">
+      <Filter>GraphicsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsStruct.h">
+      <Filter>GraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsDirLight.h">
+      <Filter>GraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsLight.h">
+      <Filter>GraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsPointLight.h">
+      <Filter>GraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsDebug.h">
+      <Filter>GraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsImage.h">
+      <Filter>GraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsParticle.h">
+      <Filter>GraphicsInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsTransParentMesh.h">
+      <Filter>GraphicsInterface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Materials>
+    <Material>
+        <Name>lambert5</Name>
+        <DiffuseFile>SpiderQueenFull_lambert5SG_BaseColor.tga</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>SQ_normal.tga</NormalFile>
+        <EmissiveFile>SpiderQueenFull_lambert5SG_Emissive.tga</EmissiveFile>
+        <Ambient R="0.2" G="0.2" B="0.2" A="1"/>
+        <Diffuse R="1" G="1" B="1" A="1"/>
+        <Specular R="0" G="0" B="0" A="0"/>
+        <Emissive R="0.5" G="0.5" B="0.5" A="1"/>
+    </Material>
+</Materials>

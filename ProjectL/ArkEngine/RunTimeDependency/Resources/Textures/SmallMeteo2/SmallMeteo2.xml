@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Materials>
+    <Material>
+        <Name>Material #25</Name>
+        <DiffuseFile>MeteorAtlas01_albedo.png</DiffuseFile>
+        <SpecularFile></SpecularFile>
+        <NormalFile>MeteorAtlas01_norm.png</NormalFile>
+        <EmissiveFile></EmissiveFile>
+        <Ambient R="0" G="0" B="0" A="1"/>
+        <Diffuse R="0.588" G="0.588" B="0.588" A="1"/>
+        <Specular R="0.588" G="0.588" B="0.588" A="2.0000007"/>
+        <Emissive R="0" G="0" B="0" A="1"/>
+    </Material>
+</Materials>
